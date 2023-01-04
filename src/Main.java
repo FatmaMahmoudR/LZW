@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		//////////////
+		/////////////
 		
 		System.out.println("Enter 1 to encode string ");
 	    System.out.println("Enter 2 to decode tags");
@@ -87,14 +87,12 @@ public class Main {
 		    System.out.print("Original Size : "+ s.length()*8+" Bits\n");
 		    System.out.print("Compressed Size : "+ TagCount*8+" Bits\n");
 
-			//////////
-	    	
 	    }
 	    else 
 	    {
-	    	System.out.println("Enter your number of Tags : ");
+	    	System.out.println("Enter number of Tags : ");
 			 Scanner INPUT = new Scanner(System.in);
-			 int n=INPUT.nextInt();
+			 int n=INPUT.nextInt(); 
 
 			 System.out.println("Enter your tags : ");
 			int [] tags=new int[n];
